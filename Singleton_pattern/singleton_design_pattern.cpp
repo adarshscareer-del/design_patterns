@@ -27,9 +27,11 @@ singleton* singleton::instances = nullptr;
 int main()
 {
     singleton* instance = singleton::getInstance();
+    singleton* instance1 = singleton::getInstance();
 }
 
 /*
 output:
 one and only instance is created
+Already created instance
 */
